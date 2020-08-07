@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Statement in Java Script</title>
+</head>
+
+<body>
+    <h3>Enter your choice</h3>
+    <ul>
+        <li>Addition</li>
+        <li>Substraction</li>
+        <li>Multiplication</li>
+        <li>Division</li>
+    </ul>
+    <form>
+        <input type="text" name="" id="choices">
+        <button onclick="myfunc">Click Me</button>
+    </form>
+
+    <script type="text/javascript">
+        function myfunc() {
+            var choice = document.getElementById("choices").value;
+            document.write("<br>"+choice);
+            alert(choice);
+        }
+    </script>
+</body>
+
+</html>
+
+
+<!-- what is switch case in javascript in Hindi - the statement is used to select one of many blocks of code to be executed
+
+syntax : 
+switch(expression){
+ case constant: code;
+     break;
+ case constant : code;
+     break;
+
+ default: code;
+}  -->

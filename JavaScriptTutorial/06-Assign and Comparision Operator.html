@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script - Assignment and Comparision Operator</title>
+</head>
+
+<body>
+    <script text="text/javascript">
+        var a = 10;
+        var b = "10";
+
+        // If we use == operator then javascript engine consider only value not data type. See below -
+        document.write(a);
+        document.write("<br>");
+        document.write(b);
+        document.write("<br>");
+
+        if (a == b) {
+            document.write("a and b both are equal");
+        } else {
+            document.write("a and b both are not equal");
+        }
+
+        document.write("<br>");
+        document.write("Use === operator<br>");
+        if (a === b) {
+            document.write("a and b both are equal");
+        } else {
+            document.write("a and b both are not equal");
+        }
+
+
+        // Assigmnet Operator
+
+        var a = 10;
+        var b = 3;
+        var sum = a + b;
+        var c = 5;
+        //var c = c + sum;
+
+       // c = c + sum;
+       //or
+       c+=sum;
+        document.write("<br>" + sum);
+        document.write("<br>");
+        document.write(c);
+
+    </script>
+</body>
+
+</html>
+
+
+<!-- comparison Operators in Javascript
+Operator Description
+== Is equal to - It will check value only.
+=== Is identical (is equal to and is of the same type)- It will check datatype also.
+!= Is not equal to
+!== Is not identical
+
+Assignment Operators in javascript
+Operator Description
+= Assign
++= Add and assign. For example, x+=y is the same as x=x+y.
+-= Subtract and assign. For example, x-=y is the same as x=x-y.
+*= Multiply and assign. For example, x*=y is the same as x=x*y.
+/= Divide and assign. For example, x/=y is the same as x=x/y.
+%= Modulus and assign. For example, x%=y is the same as x=x%y. -->
